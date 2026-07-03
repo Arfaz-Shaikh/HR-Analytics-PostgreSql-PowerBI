@@ -1,0 +1,2 @@
+ALTER TABLE hr.employee
+ALTER COLUMN overtime SET NOT NULL;
