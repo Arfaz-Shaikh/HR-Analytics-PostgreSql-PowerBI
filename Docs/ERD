@@ -1,0 +1,28 @@
+                    +----------------------+
+                    |     department       |
+                    +----------------------+
+                    | department_id (PK)   |
+                    | department_name      |
+                    +----------+-----------+
+                               |
+                               |
+                    +----------v-----------+
+                    |      employee        |
+                    +----------------------+
+                    | employee_number (PK) |
+                    | department_id (FK)   |
+                    | job_role_id (FK)     |
+                    | education_field_id   |
+                    | travel_id (FK)       |
+                    | ...                  |
+                    +----------+-----------+
+                               |
+        +----------------------+----------------------+
+        |                      |                      |
++-------v--------+   +---------v---------+   +--------v---------+
+|    job_role    |   | education_field   |   | business_travel |
++----------------+   +-------------------+   +-----------------+
+| job_role_id PK |   | education_field_id|   | travel_id PK    |
+| job_role       |   | education_field   |   | travel_type     |
++----------------+   +-------------------+   +-----------------+
+

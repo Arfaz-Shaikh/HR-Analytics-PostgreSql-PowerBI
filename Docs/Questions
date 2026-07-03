@@ -1,0 +1,181 @@
+✅ Module 1 – Employee Distribution (Descriptive Analytics)
+* Goal: Understand the workforce.
+1. Employees by department. 
+2. Employees by job role.
+3. Employees by gender.
+4. Employees by education field.
+5. Employees by education.
+6. Employees by marital status
+7. Employees by business travel.
+8. Employees by job level.
+9. Employees by education.
+10. Employees by age groups (using CASE).
+11. Executive summary of employee distribution.
+
+* SQL concepts:
+COUNT()
+GROUP BY
+ORDER BY
+Multi-column GROUP BY
+CASE expressions
+
+📉 Module 2 – Attrition Analysis
+* Goal: Why are employees leaving?
+1. Attrition by department.
+2. Attrition by job role.
+3. Attrition vs overtime.
+4. Attrition vs business travel.
+5. Attrition by gender.
+6. Attrition by age group.
+7. Attrition by marital status.
+8. Attrition by who left.
+9. Attrition by education field.
+10. Attrition rate (%) by department.
+
+* New SQL concepts:
+Conditional aggregation
+CASE
+Percentage calculations
+Multiple conditions
+
+💰 Module 3 – Salary Analysis
+* Goal: Understand employee compensation.
+1. Average salary by department.
+2. Highest-paying job roles.
+3. Salary by education.
+4. Salary by job level.
+5. Salary by gender.
+6. Salary Statistics.
+7. Top 10 highest-paid employees.
+8. Total Payroll by Department
+
+* New SQL concepts:
+AVG()
+MIN()
+MAX()
+ROUND()
+Ranking with ORDER BY
+
+👨‍💼 Module 4 – Employee Experience
+* Goal: Understand employee tenure and growth.
+1. Average Training Times Last Year.
+2. Average Years at Company
+3. Average Years Since Last Promotion by Department.
+4. Employees Waiting the Longest for Promotion
+5. Employees Who Worked at the Most Companies.
+6. Experience by department.
+7. Tenure by job role.
+8. Total working years by education.
+9. Years with current manager 
+10. Training last year analysis 
+11. Average Years with Current Manager by Job Role
+
+* New SQL concepts:
+More aggregates
+Comparing averages
+Business interpretation
+
+😊 Module 5 – Employee Satisfaction
+* Goal: Measure employee happiness.
+1. Average Job Satisfaction by Department.
+2. Average Work-Life Balance by Department.
+3. Average Environment Satisfaction by Job Role.
+4. Average Relationship Satisfaction by Department.
+5. Work-Life Balance by Overtime.
+6. Average Satisfaction of Employees Who Left vs Stayed.
+7. Department Satisfaction Summary
+8. Job Satisfaction by Overtime.
+9. Job Satisfaction by Job Role.
+
+* New SQL concepts:
+Multi-table analysis
+Combining multiple measures
+
+📈 Module 6 – Advanced SQL Analytics
+\\ This is where we'll move beyond basic reporting.
+1. Departments with More Than 200 Employees (HAVING).
+2. Employees Earning Above Their Department Average (Subquery).
+3. Top 3 Highest Paid Employees in Every Department (CTE + RANK).
+4. Compare Employee Salary with Company Average.
+5. Running Payroll Total by Department.
+6. Window Functions (RANK(), OVER(), PARTITION BY).
+7. Rank Employees by Salary Within Each Department (RANK).
+8. Create Employee Summary(View).
+9. Executive HR Summary(CTEs).
+\\ Apply them to HR business questions instead of artificial examples.
+
+
+📊 Module 7 – Dashboard Preparation
+* Create SQL queries specifically for Power BI.
+Examples:
+1. Executive Summary
+2. HR KPI Dashboard
+3. Salary Dashboard
+4. Attrition Dashboard
+5. Employee Profile Dashboard
+These queries will become the data source for your Power BI reports.
+
+🖥️ Module 8 – Power BI
+Connect Power BI directly to your PostgreSQL database and build interactive dashboards using the SQL you've written.
+1. Dashboard 1 – Executive Overview
+\\ KPIs (Cards)
+Total Employees.
+Attrition Rate (%).
+Average Salary.
+Average Age.
+Average Years at Company.
+\\ Visuals
+Employees by Department (Bar Chart).
+Employees by Gender (Donut Chart).
+Employees by Age Group (Column Chart).
+
+2. Dashboard 2 – Workforce Distribution
+\\ Visuals
+Employees by Department.
+Employees by Job Role.
+Employees by Education Field.
+Employees by Business Travel.
+Employees by Marital Status.
+Employees by Job Level.
+
+3. Dashboard 3 – Attrition Dashboard
+\\ KPIs
+Total Employees.
+Total Employees Left.
+Attrition Rate.
+Employees Stayed.
+\\ Visuals
+Attrition by Department.
+Attrition by Job Role.
+Attrition by Gender.
+Attrition by Business Travel.
+Attrition by Age Group.
+Attrition vs Overtime.
+
+4. Dashboard 4 – Salary Dashboard
+\\ Visuals
+Average Salary by Department.
+Average Salary by Job Role.
+Salary by Education Field.
+Salary by Job Level.
+Salary by Gender.
+Top 10 Highest Paid Employees.
+
+5. Dashboard 5 – Employee Experience
+\\ Visuals
+Average Years at Company.
+Average Years at Company by Job Role.
+Average Years Since Promotion by Department.
+Average Years with Current Manager.
+Average Training Sessions by Department.
+Top 10 Most Experienced Employees.
+
+6. Dashboard 6 – Employee Satisfaction
+\\ Visuals
+Average Job Satisfaction.
+Average Environment Satisfaction.
+Environment Satisfaction by Job Role.
+Average Relationship Satisfaction.
+Average Work-Life Balance.
+Satisfaction vs Attrition.
+Satisfaction by Overtime.
