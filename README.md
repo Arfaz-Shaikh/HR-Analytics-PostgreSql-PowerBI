@@ -216,15 +216,6 @@ HR-Analytics-Dashboard/
 
 
 
-Suggested screenshots:
-
-- Executive Overview
-- Workforce Analysis
-- Attrition Dashboard
-- Salary Dashboard
-- Employee Experience
-- Employee Satisfaction
-
 ---
 
 ## 🎯 Learning Outcomes
